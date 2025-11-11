@@ -10,7 +10,7 @@ MULTI_THREADS=$(nproc)
 WEBHOOK_URL="WEBHOOK-URL"
 SERVER_NAME="DEIN VPS NAME"
 HOSTNAME=$(hostname)
-DATE=$(TZ="Europe/Berlin" date '+%Y-%m-%d %H:%M:%S')
+DATE=$(TZ="Europe/Berlin" date '+%d-%m-%Y %H:%M:%S')
 OS_VERSION=$(lsb_release -d | cut -f2-)
 
 # Fehlende Pakete automatisch installieren
