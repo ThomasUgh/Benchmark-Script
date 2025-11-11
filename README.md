@@ -198,7 +198,7 @@ Das Script sendet ein strukturiertes Embed mit:
 
 ## 📝 Changelog
 
-### 🎉 v2.0 (2025-11-11)
+### 🎉 v2.0 (11.11.2025)
 ```diff
 + Netzwerk-Test mit Speedtest-CLI (Server-Info + Standort)
 + RAM-Test auf sysbench memory umgestellt
